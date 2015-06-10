@@ -6,9 +6,9 @@ organization := "com.dscleaver.sbt"
 
 versionWithGit
 
-//version := "0.4.1-LOCAL"
+version := "0.4.2-THIB"
 
-git.baseVersion := "0.4.1"
+git.baseVersion := "0.4.2-THIB"
 
 resolvers += "sonatype-releases" at "https://oss.sonatype.org/service/local/repositories/releases/content/"
 
