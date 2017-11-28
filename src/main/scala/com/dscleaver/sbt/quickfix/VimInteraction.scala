@@ -1,9 +1,9 @@
-package com.dscleaver.sbt.quickfix
+// package com.dscleaver.sbt.quickfix
 
-import sbt._
+// import sbt._
 
-object VimInteraction {
-  def call(vimExec: String, command: Seq[String]): Int = Process(List(vimExec, "--remote-send") ++ command).!
+// object VimInteraction {
+//   def call(vimExec: String, command: Seq[String]): Int = Process(List(vimExec, "--remote-send") ++ command).!
 
-  def call(vimExec: String, command: String): Int = call(vimExec, List(command))
-}
+//   def call(vimExec: String, command: String): Int = call(vimExec, List(command))
+// }
