@@ -4,11 +4,11 @@ name := "sbt-quickfix"
 
 organization := "com.dscleaver.sbt"
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.12.6"
 
 licenses += ("BSD 3-Clause", url("https://opensource.org/licenses/BSD-3-Clause"))
 
-version := "1.0.0-THIB"
+version := "1.0.1-THIB"
 
 resolvers += "sonatype-releases" at "https://oss.sonatype.org/service/local/repositories/releases/content/"
 
