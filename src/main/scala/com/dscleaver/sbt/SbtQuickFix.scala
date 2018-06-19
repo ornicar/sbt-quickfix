@@ -32,6 +32,7 @@ object SbtQuickFix extends AutoPlugin {
               QuickFixDirectory.value / "sbt.quickfix", 
               "vim", //VimExecutable.value, 
               false) //VimEnableServer.value)
+          logger.start()
           logger +: loggers
         }
         else
